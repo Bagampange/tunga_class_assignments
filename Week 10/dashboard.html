@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+         <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <!-- CSS stylesheet -->
+        <link href="./dashboard.css" rel="stylesheet" />
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="./images/assignment.png" />
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <title>Dashboard</title>
+    </head>
+
+    <body>
+        <section class="sidebar">
+            <div class="sidebar-header">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" class="sidebar-svg"/></svg>
+
+                <h1>Dashboard</h1>
+            </div>
+            <div class="sidebar-nav">
+                <ul class="ul-top">
+                    <li><i class="fa fa-home fa-fw" aria-hidden="true"></i> &nbsp; Home</li>
+                    <li><i class="fa fa-user fa-fw" aria-hidden="true"></i></i> &nbsp; Profile</a></li>
+                    
+                    <li><i class="fa fa-comment fa-fw" aria-hidden="true"></i> &nbsp; Message</li>
+                    <li><i class="fa fa-history fa-fw" aria-hidden="true"></i> &nbsp; History</li>
+                    <li><i class="fa fa-tasks fa-fw" aria-hidden="true"></i> &nbsp; Tasks</li> 
+                    <li><i class="fa fa-users fa-fw" aria-hidden="true"></i> &nbsp; Communities</li>
+                </ul>
+                <ul class="ul-bottom"><li><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> &nbsp; Settings</li>
+                    <li><i class="fa fa-question-circle fa-fw" aria-hidden="true"></i> &nbsp; Support</li>
+                    <li><i class="fa fa-user-secret fa-fw" aria-hidden="true"></i> &nbsp; Privacy</li></ul>
+            </div>
+        </section>
+        <section class="main-section">
+            <section class="header">
+                <div class="header-top">
+                    <div class="search">
+                        
+                        <div class="search-icon"><i class="fa fa-search fa-fw" aria-hidden="true"></i></div>
+                        <div class="search-field"><input type="text"></div>
+                    </div>
+                    <div class="header-top-right">
+                        <div class="notification"><i class="fa fa-bell" aria-hidden="true"></i></div>
+                        <div class="profile-icon"><img src="./images/cat.png" alt="cat-profile"></div>
+                        <div class="profile-name"><h4>Morgan Oakley</h4></div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <div class="profile-img"><img src="./images/cat.png" alt=""></div>
+                        <div class="profile-txt"><p><strong>Hi there,</strong></p>
+                        <h2><strong>Morgan Oakley (@morgan)</strong></h2></div>
+                    </div>
+                    <div class="header-bottom-right">
+                        <div class="header-btn">New</div>
+                        <div class="header-btn">Upload</div>
+                        <div class="header-btn">Share</div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-layout">
+                <div class="main-left">
+                    <h3>Your projects</h3>
+                    <div class="main-grid">
+                        <div class="grid-item">
+                            <div class="grid-txt">
+                            <h4>Super Cool Project</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi, similique voluptate natus nesciunt praesentium asperiores haru.</p>
+                        </div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-txt">
+                            <h4>Less Cool Project</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente similique maxime culpa id explicabo ipsam dolores minima rerum dolor quos debitis quasi nulla nisi harum ullam, sed corporis dignissimos inventore!</p></div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-txt">
+                            <h4>Impossible App</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, distinctio. Velit perferendis nostrum soluta aut temporibus dolor earum autem et tempore amet doloremque nulla eveniet qui, quae illo ratione repellat.</p></div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="grid-item"><div class="grid-txt">
+                            <h4>Easy Peasy App</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aperiam illum officia reprehenderit rerum accusamus sint, nam quis qui nesciunt numquam aliquam molestias unde quia. Est necessitatibus a quam nostrum.</p></div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="grid-item"><div class="grid-txt">
+                            <h4>Ad Blocker</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa eaque consequatur illum hic dolorum sequi esse voluptatem delectus adipisci, in incidunt voluptatum, mollitia reprehenderit natus non reiciendis vitae, cupiditate et.</p></div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="grid-item"><div class="grid-txt">
+                            <h4>Money Maker</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, cupiditate harum quam voluptatum exercitationem consequuntur est sapiente! Suscipit voluptate eum aperiam temporibus nostrum, obcaecati distinctio facilis inventore, dolores nihil rerum?</p></div><div class="grid-icon">
+                                <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-right">
+                    <div class="main-right-top">
+                        <h3>Announcements</h3>
+                        <div class="announcements">
+                            <div>
+                                <h5>Site Maintenance</h5>
+                                <p>Lorem ipsum dolor sit amet consecte ipsa asperiores veniam ducimus. Libero nemo alias veniam natus animi unde minus aperiam voluptatum ratione impedit!</p>
+                            </div>
+                            <div>
+                                <h5>Community Share Day</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum molestias reprehenderit, delectus quibusdam odit!</p>
+                            </div>
+                            <div>
+                                <h5>Updated Privacy Policy</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur rerum recusandae quod consequatur neque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-bottom">
+                        <h3>Trending</h3>
+                        <div class="trending">
+                            <div class="trending-child">
+                                <div class="trending-img"><img src="./images/dog.png" alt=""></div>
+                                <div class="trending-txt">
+                                    <h6>@tegan</h6>
+                                    <p>World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="trending-child">
+                                <div class="trending-img"><img src="./images/cat.png" alt=""></div>
+                                <div class="trending-txt">
+                                    <h6>@morgan</h6>
+                                    <p>Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="trending-child">
+                                <div class="trending-img"><img src="./images/ufo.png" alt=""></div>
+                                <div class="trending-txt">
+                                    <h6>@kendall</h6>
+                                    <p>Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="trending-child">
+                                <div class="trending-img"><img src="./images/penguin.png" alt=""></div>
+                                <div class="trending-txt">
+                                    <h6>@alex</h6>
+                                    <p>No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container div {
+  border-radius: 0.8rem;
+}
+
+.container {
+  height: 75vh;
+  width: 75vw;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+  grid-template-areas:
+    "item1 item2 item3 item4"
+    "item1 item6 item3 item4"
+    "item5 item6 item7 item8"
+    "item5 item10 item11 item12"
+    "item9 item10 item11 item12";
+}
+
+#item1 {
+  grid-area: item1;
+  background: url(/images/masonry-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item2 {
+  grid-area: item2;
+  background: url(/images/masonry-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item3 {
+  grid-area: item3;
+  background: url(/images/masonry-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item4 {
+  grid-area: item4;
+  background: url(/images/masonry-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item5 {
+  grid-area: item5;
+  background: url(/images/masonry-05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item6 {
+  grid-area: item6;
+  background: url(/images/masonry-06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item7 {
+  grid-area: item7;
+  background: url(/images/masonry-07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item8 {
+  grid-area: item8;
+  background: url(/images/masonry-08.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item9 {
+  grid-area: item9;
+  background: url(/images/masonry-09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item10 {
+  grid-area: item10;
+  background: url(/images/masonry-10.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item11 {
+  grid-area: item11;
+  background: url(/images/masonry-11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#item12 {
+  grid-area: item12;
+  background: url(/images/masonry-12.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

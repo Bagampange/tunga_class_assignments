@@ -1,0 +1,180 @@
+/* CSS Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General CSS rules */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+header {
+  padding: 0 100px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Header section */
+header {
+  background-color: #1f2937;
+  padding-top: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.nav-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.hero-section {
+  display: flex;
+  padding: 80px 0;
+  gap: 20px;
+}
+.welcome-section,
+.welcome-img {
+  flex: 1;
+}
+.welcome-section p,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+}
+
+.welcome-img img {
+  width: 100%;
+  height: 100%;
+}
+.welcome-section button {
+  margin-top: 10px;
+}
+
+/* Main Section */
+
+.main-intro h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 25px;
+}
+.intro-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: first baseline;
+  margin-bottom: 100px;
+  padding: 0 100px;
+}
+.intro-item {
+  width: 150px;
+  flex: 1 auto;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.intro-img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.intro-item p {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.main-quote {
+  background-color: #e5e7eb;
+  padding: 100px 150px;
+}
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+.author {
+  color: #1f2937;
+  font-size: 36px;
+  text-align: right;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-bar {
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 25px 75px;
+  margin: 75px auto;
+}
+.sign-up-message h3,
+.sign-up-message p {
+  color: #f9faf8;
+}
+.sign-up-message p {
+  font-weight: 100;
+}
+.sign-up-button {
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+}
+
+/* Footer section  */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+footer p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 54px;
+  font-weight: 100;
+  padding: 20px auto;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracking Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="dashboard">
+      <div class="header flex">
+        <div class="profile flex padded">
+          <div class="profile-img">
+            <img src="./images/cs50cat.jpg" alt="cat image" />
+          </div>
+
+          <div class="profile-txt">
+            <h4>Report for</h4>
+            <h2>Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="routine flex padded">
+          <h3>Daily</h3>
+          <h3>Weekly</h3>
+          <h3>Monthly</h3>
+        </div>
+      </div>
+      <div class="display">
+        <div class="display-item work">
+          <div class="item-back flex">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Work</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>32hrs</h2></div>
+              <div class="last-week"><p>Last Week - 36hrs</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-item play">
+          <div class="item-back flex"><i class="fa-solid fa-gamepad"></i></div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Play</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>10hrs</h2></div>
+              <div class="last-week"><p>Last Week - 36hrs</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-item study">
+          <div class="item-back flex">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Study</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>4hrs</h2></div>
+              <div class="last-week"><p>Last Week - 7hrs</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-item exercise">
+          <div class="item-back flex">
+            <i class="fa-solid fa-person-running"></i>
+          </div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Exercise</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>4hrs</h2></div>
+              <div class="last-week"><p>Last Week - 5hrs</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-item social">
+          <div class="item-back flex"><i class="fa-solid fa-comments"></i></div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Social</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>5hrs</h2></div>
+              <div class="last-week"><p>Last Week - 10hrs</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="display-item self-care">
+          <div class="item-back flex">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <div class="item-front padded">
+            <div class="item-action flex">
+              <div class="action-name"><h3>Self Care</h3></div>
+              <div class="dots-btn"><i class="fa-solid fa-ellipsis"></i></div>
+            </div>
+            <div class="item-time flex">
+              <div class="item-hour"><h2>2hrs</h2></div>
+              <div class="last-week"><p>Last Week - 2hrs</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
